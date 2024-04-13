@@ -1,3 +1,4 @@
+import HeroCorousel from "@/components/HeroCorousel";
 import Searchbar from "@/components/Searchbar";
 import Image from "next/image";
 import React from "react";
@@ -19,7 +20,7 @@ const Home = () => {
 						<p className="mt-6">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.</p>
 						<Searchbar />
 					</div>
-					herocarousel
+					<HeroCorousel />
 				</div>
 			</section>
 			<section className="trending-section">
